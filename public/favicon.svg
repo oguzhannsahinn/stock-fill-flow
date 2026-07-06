@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Rounded square background matching --color-primary-600 (#4f46e5 indigo-600 equivalent; using project purple) -->
+  <rect width="32" height="32" rx="8" fill="#2563eb"/>
+  <!-- Pill icon (lucide-react Pill, simplified, white stroke) -->
+  <!-- Pill shape: two halves of a capsule rotated 45deg, centered at 16,16 -->
+  <!-- Full pill outline -->
+  <g transform="translate(16,16) rotate(45)">
+    <!-- Pill body rounded rect -->
+    <rect x="-10" y="-4" width="20" height="8" rx="4" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Center divider line -->
+    <line x1="0" y1="-4" x2="0" y2="4" stroke="white" stroke-width="2"/>
+  </g>
+</svg>
