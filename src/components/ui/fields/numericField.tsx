@@ -94,7 +94,7 @@ export function NumericField({
 
         {unit && (
           <div className="absolute right-0 top-0 h-full flex items-center pr-1">
-            <span className="h-9 px-3 flex items-center text-xs font-medium text-[var(--color-text-muted)] bg-[var(--color-neutral-100)] rounded-lg border-l border-[var(--color-border)]">
+            <span className="h-9 px-3 flex items-center text-xs font-medium text-[var(--color-text-muted)]">
               {unit}
             </span>
           </div>

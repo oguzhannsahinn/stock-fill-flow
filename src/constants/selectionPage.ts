@@ -13,10 +13,10 @@ export const categoryStyles: Record<
   { badge: string; filter: string; filterActive: string; dot: string }
 > = {
   "IV Sıvılar": {
-    badge: "bg-sky-50 text-sky-700 border border-sky-100",
-    filter: "border-sky-200 text-sky-700 hover:bg-sky-50",
-    filterActive: "bg-sky-500 text-white border-sky-500 shadow-sm",
-    dot: "bg-sky-400",
+    badge: "bg-pink-50 text-pink-700 border border-pink-100",
+    filter: "border-pink-200 text-pink-700 hover:bg-pink-50",
+    filterActive: "bg-pink-500 text-white border-pink-500 shadow-sm",
+    dot: "bg-pink-400",
   },
   Antibiyotikler: {
     badge: "bg-amber-50 text-amber-700 border border-amber-100",

@@ -194,7 +194,7 @@ export function FillFlowPage() {
           <div className="bg-white rounded-2xl border border-[var(--color-border)] shadow-sm flex-1 flex flex-col">
             <div className="px-6 py-5 border-b border-[var(--color-border)]">
               <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-lg bg-[var(--color-primary-600)] flex items-center justify-center text-white text-sm font-bold">
+                <div className="w-8 h-8 rounded-full bg-[var(--color-primary-600)] flex items-center justify-center text-white text-sm font-bold">
                   {currentStep + 1}
                 </div>
                 <div>
